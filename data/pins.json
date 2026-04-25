@@ -1,14 +1,21 @@
 [
   {
     "name": "penurometre",
-    "description": "test",
+    "description": "python, three-js, health-economics, dataviz, openFDA, drug-shortages,",
     "url": "https://github.com/zbaezbae/penurometre",
     "stars": 0,
     "forks": 0,
     "language": "HTML",
     "languageColor": "#e34c26",
-    "topics": [],
-    "updatedAt": "2026-04-25T20:40:27Z",
+    "topics": [
+      "dataviz",
+      "drug-shortages",
+      "econometrics",
+      "health-economics",
+      "openfda",
+      "openfda-api"
+    ],
+    "updatedAt": "2026-04-25T21:23:46Z",
     "homepageUrl": ""
   },
   {
@@ -20,7 +27,7 @@
     "language": "HTML",
     "languageColor": "#e34c26",
     "topics": [],
-    "updatedAt": "2026-04-25T21:14:04Z",
+    "updatedAt": "2026-04-25T21:35:13Z",
     "homepageUrl": ""
   }
 ]
