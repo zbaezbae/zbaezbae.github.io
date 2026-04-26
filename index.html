@@ -536,6 +536,14 @@ setInterval(() => {
     titleIdx = (titleIdx + 1) % titles.length;
     document.title = titles[titleIdx];
 }, 3000);
+const baseTitle = "zamzam bedjigue — health, data & economics    ·   baby datascientist    ·    le pénuromètre 🌍    ·    le promessomètre 🗺️ & more ongoing ⏳! ·    ";
+const fullText = baseTitle + baseTitle;
+let pos = 0;
+setInterval(() => {
+    pos = (pos + 1) % baseTitle.length;
+    document.title = fullText.slice(pos, pos + 40);
+}, 150);
+
 
 (async function loadPinnedRepos() {
     const grid   = document.getElementById('repos-grid');
